@@ -1,0 +1,19 @@
+{
+    "name": "fingerqin/general-services",
+    "type": "library",
+    "authors": [
+        {
+            "name": "fingerQin",
+            "email": "753814253@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "phpoffice/phpspreadsheet": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpservices\\": "src/"
+        }
+    }
+}
